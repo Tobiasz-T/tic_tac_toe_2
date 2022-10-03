@@ -1,1 +1,1 @@
-# tic_tak_toe_2
+# tic_tak_toe
