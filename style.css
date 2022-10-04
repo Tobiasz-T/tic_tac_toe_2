@@ -1,3 +1,7 @@
+body{
+    margin:0px;
+    background-color:rgb(77, 76, 75); ;
+}
 main{
     text-align: center;
 }
@@ -10,10 +14,15 @@ main{
     margin: 30px auto;
 }
 .cell{
+    background-color: orangered;
+    color:rgb(77, 76, 75);
     cursor: pointer;
     font-size: 110px;
     text-align: center;
     border: 1px solid black;
     width: 120px;
     height: 120px;
+}
+h1{
+    color:orangered;
 }
