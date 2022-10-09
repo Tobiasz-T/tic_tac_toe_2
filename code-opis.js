@@ -21,7 +21,7 @@ class App{                 //deklaracja klasy o nazwiw App
             cell => cell.addEventListener("click",this.cellClick)       // cell-komórka / add-dodaj / event-wydarzenie / listener-słuchacz        
         );
 
-        document.getElementById("restart-game").addEventListener("click",() => this.restartGame());
+        document.getElementById("restart-game").addEventListener("click",() => this.restartGame()); // get - dostawać / element - element / by - za pomocą
     } 
     cellClick = (e) =>{             //parametr e (event - zdarzenie) 
         //console.log(e.target);
@@ -30,8 +30,8 @@ class App{                 //deklaracja klasy o nazwiw App
     initGame(){                     // inicjacja gry funkcja
        this.currentPlayer="X";      // current-obecny
 
-       document.querySelectorAll(".cell").forEach(
-       el => {el.innerHTML ="";}
+       document.querySelectorAll(".cell").forEach(  // for each - dla każdego
+       el => {el.innerHTML ="";}    // inner - wewnętrzny
        );                           // el() Szkielet. Metoda js zobacz el definiuje element, który jest używany jako odwołanie do widoku.
     };                              //  ten. el jest tworzony z właściwości tagName, className, id i atrybutów widoku, jeśli zostały określone.
     playerTurn(el){                 // turn - kolejka              
@@ -43,7 +43,7 @@ class App{                 //deklaracja klasy o nazwiw App
     }
     
     checkWinner(){                  // funkcja sprawdzanie wygranej
-        for(let i=0; i < this.winningVariants.length; i++){    // pętla for
+        for(let i=0; i < this.winningVariants.length; i++){    // pętla for / length -  długość
             const variant = this.winningVariants[i];
             const a=this.getCellValue(variant[0]);
             const b=this.getCellValue(variant[1]);
@@ -63,7 +63,7 @@ class App{                 //deklaracja klasy o nazwiw App
        this.initGame();
     }
     
-    setWinner(str){
+    setWinner(str){    //funkcja setWinner z argumętem str
         document.getElementById("winner").innerHTML=str;
     }
     getCellValue(index){
@@ -71,7 +71,7 @@ class App{                 //deklaracja klasy o nazwiw App
     }
 }
 
-const app = new App();
+const app = new App();  // stała app = nowa funkcja App
 
 // Operatory porównania
 // Biorąc pod uwagę, że x = 5 , poniższa tabela opisuje operatory porównania:
