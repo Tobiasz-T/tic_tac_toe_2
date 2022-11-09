@@ -1,7 +1,7 @@
 # tic_tac_toe
 ## Spis treści:
-* [Tablica:](#Tablica:)
-* [Funkcje:](#Funkcje:)
+* [Tablica](#Tablica)
+* [Funkcje](#Funkcje)
 * [Notatka](#Notatka)
 ## Tablica:
 winningVariants
