@@ -14,11 +14,13 @@ winningVariants<br>
 * initGame
 * checkWinner
 * restartGame<br>
-![obraz](https://user-images.githubusercontent.com/96210491/201227179-bcac62bd-f2d2-4081-8539-8185a3603a8f.png)
+![obraz](https://user-images.githubusercontent.com/96210491/201227745-e3632bdf-2f29-4cd8-b652-de2d7b71ae2d.png)
 
 funkcja strzałkowa<br>
 * cellClick<br>
-![obraz](https://user-images.githubusercontent.com/96210491/201227019-602cc8d4-0b57-488c-a1a1-761fa90b007d.png)
+![obraz](https://user-images.githubusercontent.com/96210491/201227931-93e83c1d-71f6-49da-8576-95cb570c5d5d.png)
+
+
 
 ## Notatka
 
