@@ -4,17 +4,21 @@
 * [Funkcje](#Funkcje)
 * [Notatka](#Notatka)
 ## Tablica:
-winningVariants
+winningVariants<br>
+![obraz](https://user-images.githubusercontent.com/96210491/201225421-3394f75e-0467-49f9-86c3-450337e6da23.png)
 
 
 ## Funkcje:
-init
-initGame
-checkWinner
-restartGame
+* init<br>
+![obraz](https://user-images.githubusercontent.com/96210491/201226954-410637af-99c4-4455-9785-87d7ce10300c.png)
+* initGame
+* checkWinner
+* restartGame<br>
+![obraz](https://user-images.githubusercontent.com/96210491/201227179-bcac62bd-f2d2-4081-8539-8185a3603a8f.png)
 
-funkcja strzałkowa
-cellClick
+funkcja strzałkowa<br>
+* cellClick<br>
+![obraz](https://user-images.githubusercontent.com/96210491/201227019-602cc8d4-0b57-488c-a1a1-761fa90b007d.png)
 
 ## Notatka
 
