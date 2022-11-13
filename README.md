@@ -1,4 +1,8 @@
 # tic_tac_toe
+## Technologia
+* HTML
+* CSS
+* JS (JavaScript)
 ## Spis treści:
 * [Tablica](#Tablica)
 * [Funkcje](#Funkcje)
